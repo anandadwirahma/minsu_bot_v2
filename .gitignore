@@ -1,2 +1,4 @@
 venv
-celery1.log
+*.log
+*.pid
+*.pyc
