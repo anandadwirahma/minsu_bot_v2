@@ -1,0 +1,77 @@
++ ask total order
+- anwTotalorder Silahkan masukan jumlah barang yang ingin dibeli yaaa
+
++ about minsu
+- Susu MINSU terbuat dari susu sapi asli yang segar & murni serta di olah dengan berbagai varian rasa tanpa tambahan air & bahan pengawet.\n\n
+^ Contact kami : \n
+^ Whatsapp : +628111924016\n
+^ Instagram : @minsumilkstore \n
+^ Email : minsumilk@gmail.com \n
+^ Line : @minsumilkstore
+
++ chatnow
+- mnMilki Haloo aku Milki , teman sehat kamu :) \n
+^ oh iya btw, kamu sudah minum susu belum hari ini ? karena hari gini gak minum susu itu nggak uuuu..
+
++ complain
+- complain
+
++ history
+- history
+
++ keranjang
+- keranjang
+
++ confirmorder
+- mnPicorder {topic=locationorder}
+
+> topic locationorder
+    + location
+    - uLoc {topic=phoneorder}
+
+    + [*] cancel [*]
+    - ordCancel Baik kak kita cancel ya, \n
+    ^ Kalau pengen pesan minsu jangan malau-malu hubungin milki ya..{topic=random}
+
+    + (*)
+    - Share loc aja ya kak..\n
+    ^ (Untuk keluar dari proses pemesanan ketik 'cancel')
+< topic
+
+> topic phoneorder
+    + phone
+    - uPhone {topic=emailorder}
+
+    + [*] cancel [*]
+    - ordCancel Baik kak kita cancel ya, \n
+    ^ Kalau pengen pesan minsu jangan malau-malu hubungin milki ya..{topic=random}
+
+    + (*)
+    - Tolong masukan angka ya kak..\n
+    ^ (Untuk keluar dari proses pemesanan ketik 'cancel')
+< topic
+
+> topic emailorder
+    + email
+    - uMail {topic=random}
+
+    + [*] cancel [*]
+    - ordCancel Baik kak kita cancel ya, \n
+    ^ Kalau pengen pesan minsu jangan malu-malu hubungin milki ya..{topic=random}
+
+    + (*)
+    - Coba cek lagi ya kak format emailnya..\n
+    ^ (Untuk keluar dari proses pemesanan ketik 'cancel')
+< topic
+
++ [*] [@halo] [*]
+- mnMilki Haloo aku Milki , teman sehat kamu :) \n
+^ Kamu udah minum susu belum hari ini ? Hari gini gk minum susu , gak uuuu..
+
++ cancelorder
+- ordCancel Baik kak kita cancel ya, \n
+^ Kalau pengen pesan minsu jangan malau-malu hubungin milki ya..
+
++ [@cancel]
+- ordCancel Baik kak kita cancel ya, \n
+^ Kalau pengen pesan minsu jangan malu-malu hubungin milki ya..
