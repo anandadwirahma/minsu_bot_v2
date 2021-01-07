@@ -94,7 +94,7 @@ kombu==4.1.0
 librabbitmq==1.0.3
 line-bot-sdk==1.5.0
 lml==0.0.1
-lxml==4.1.1
+lxml==4.6.2
 mailer==0.7
 MarkupSafe==1.0
 mathparse==0.1.1
