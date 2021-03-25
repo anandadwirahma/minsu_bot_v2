@@ -159,7 +159,7 @@ python-openid==2.2.5
 python-social-auth==0.3.6
 python-twitter==3.3
 pytz==2017.3
-PyYAML==3.12
+PyYAML==5.4
 ##qiscusapi==0.0.8
 ##-e git+https://github.com/RasaHQ/rasa_nlu.git@308a25061dc249113993542e2cc14c766a0c2caa#egg=rasa_nlu
 redis==2.10.6
