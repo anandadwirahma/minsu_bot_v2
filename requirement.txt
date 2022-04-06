@@ -196,7 +196,7 @@ toolz==0.9.0
 tornado==4.5.2
 tqdm==4.23.0
 treq==17.3.1
-Twisted==17.9.0
+Twisted==22.2.0
 ##Twisted-Core==13.2.0
 ##Twisted-Names==13.2.0
 ##Twisted-Web==13.2.0
