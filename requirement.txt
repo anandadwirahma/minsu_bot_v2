@@ -203,7 +203,7 @@ Twisted==17.9.0
 typing==3.6.2
 tzlocal==1.4
 uber-rides==0.4.1
-ujson==1.35
+ujson==5.2.0
 urllib3==1.22
 vine==1.1.4
 virtualenv==15.2.0
