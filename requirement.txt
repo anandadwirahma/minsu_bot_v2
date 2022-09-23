@@ -124,7 +124,7 @@ Pillow==4.2.1
 plac==0.9.6
 preshed==1.0.0
 prettytable==0.7.2
-protobuf==3.5.0.post1
+protobuf==3.18.3
 psutil==5.2.2
 py==1.4.34
 pyasn1==0.4.2
